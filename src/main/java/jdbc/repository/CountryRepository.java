@@ -9,8 +9,8 @@ import java.util.List;
 public class CountryRepository {
 
     private static String dbUrl = "jdbc:mysql://localhost:3306/world?serverTimezone=UTC";
-    private static String dbUser = "root";
-    private static String dbPassword = "e2b9t9mc";
+    private static String dbUser = "";
+    private static String dbPassword = "";
 
     public static List<Country> getCountries() throws SQLException {
 

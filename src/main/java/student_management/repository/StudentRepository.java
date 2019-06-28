@@ -12,8 +12,8 @@ import java.util.List;
 public class StudentRepository {
 
     private static String dbUrl = "jdbc:mysql://localhost:3306/school?serverTimezone=UTC";
-    private static String dbUser = "root";
-    private static String dbPassword = "e2b9t9mc";
+    private static String dbUser = "";
+    private static String dbPassword = "";
 
 
     public static List<Student> getStudents() throws Exception {
